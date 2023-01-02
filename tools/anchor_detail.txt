@@ -1,0 +1,30 @@
+Done (t=1.32s)
+creating index...
+index created!
+{1: 'cell'}
+class_ids: [1]
+3393
+process 500 images
+process 1000 images
+process 1500 images
+process 2000 images
+process 2500 images
+process 3000 images
+process 3500 images
+process 4000 images
+process 4500 images
+Boxes: [[ 61.33333333  53.33333333] 3267
+ [ 36.26666667  38.4       ] = 1390
+ [ 58.66666667  85.86666667] = 5016
+ [108.26666667 112.53333333] = 12096
+ [ 88.          72.        ]] = 6336
+Accuracy: 71.68%
+Before Sort Ratios:
+ [1.15, 0.94, 0.68, 0.96, 1.22]
+After Sort Ratios:
+ [0.68, 0.94, 0.96, 1.15, 1.22]
+
+anchor_strides == [4, 8, 16, 32, 64]
+anchor_scales == [8] 
+32*32 -> 256*256 -> 512*512
+128*128
