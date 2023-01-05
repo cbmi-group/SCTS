@@ -62,5 +62,15 @@ optimizer_config = dict(
     use_fp16=True,
 )
 ```
-## Conference
-IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2023
+
+## Cite SCTS
+```
+@InProceedings{Zhou_2023_WACV,
+    author    = {Zhou, Yating and Li, Wenjing and Yang, Ge},
+    title     = {SCTS: Instance Segmentation of Single Cells Using a Transformer-Based Semantic-Aware Model and Space-Filling Augmentation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {5944-5953}
+}
+```
