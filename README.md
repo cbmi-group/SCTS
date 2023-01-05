@@ -1,7 +1,7 @@
 
 # The official implementation of the paper : SCTS: Instance Segmentation of Single Cells Using a Transformer-Based Semantic-Aware Model and Space-Filling Augmentation
 
-## dataset:
+## Dataset:
 
 ### HEK293T dataset [download](https://drive.google.com/file/d/1CH8MI_FXjQwN5VhhUQYNYfgS2ZRE1GMt/view?usp=share_link)
 HEK293T is a small-scale in-house dataset of HEK293T cells imaged by confocal microscopy. It is partitioned into 108 training images and 37 test images, with a total of 2012 training instances and 576 test instances. It is characterized by uneven cell brightness and the presence of some weak signal regions.
@@ -62,5 +62,5 @@ optimizer_config = dict(
     use_fp16=True,
 )
 ```
-### Conference
+## Conference
 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2023
