@@ -16,7 +16,7 @@ import skimage.segmentation
 
 dataset_dir = r'/workspace/Swin-Transformer-Object-Detection/er_stress/images/train_8bit'
 json_file = r'/workspace/Swin-Transformer-Object-Detection/er_stress/annotations/train.json'
-save_path = r'/workspace/Swin-Transformer-Object-Detection/er_stress/instance'
+save_path = r'/workspace/Swin-Transformer-Object-Detection/er_stress/semantic_instance'
 
 import colorsys
 
