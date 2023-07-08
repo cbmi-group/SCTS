@@ -30,9 +30,9 @@ def cal_iou_ioa(mask1,mask2):
     mask_ioa = inter / min(area1,area2)
     return mask_iou,mask_ioa
 
-json_path = '/workspace/detectron2-ResNeSt/datasets/livecell/annotations/LIVECell_proceed/livecell_coco_train_png.json'
-image_path = '/workspace/detectron2-ResNeSt/datasets/livecell/images/livecell_train_val_images_png'
-save_path = '/workspace/detectron2-ResNeSt/datasets/livecell/images/instance_v1'
+json_path = '/workspace/Swin-Transformer-Object-Detection/er_stress/annotations/train_aug.json'
+image_path = '/workspace/Swin-Transformer-Object-Detection/er_stress/train_images_aug'
+save_path = '/workspace/Swin-Transformer-Object-Detection/er_stress/instance'
 os.makedirs(save_path,exist_ok=True)
 save_path_img = os.path.join(save_path,"image")
 save_path_mask = os.path.join(save_path,"mask")
